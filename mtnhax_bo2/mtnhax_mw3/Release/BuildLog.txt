@@ -1,0 +1,33 @@
+﻿Build started 09.06.2026 21:55:03.
+     1>Project "C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\mtnhax_mw3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\mtnhax_bo2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I..\xkelib /Zi /nologo /W0 /WX- /O2 /Ot /D NDEBUG /D _XBOX /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP RME_Options.cpp mtnhax_bo2.cpp /ignore:4089 /dll /ALIGN:128,4096 /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+     1>cl : Command line warning D9002: ignoring unknown option '/ignore:4089'
+     1>cl : Command line warning D9002: ignoring unknown option '/dll'
+     1>cl : Command line warning D9002: ignoring unknown option '/ALIGN:128,4096'
+         RME_Options.cpp
+         mtnhax_bo2.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\xkelib xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.lib" Release\mtnhax_bo2.obj
+         Release\RME.obj
+         Release\RME_Options.obj
+         Release\stdafx.obj
+         Release\Structs.obj
+         Release\toolbox.obj /ignore:4089 /dll /ALIGN:128,4096 /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.xex" /config:"mtnhax_bo2.xml" "C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\Release\mtnhax_bo2.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Release\mtnhax_bo2.unsuccessfulbuild".
+         Touching "Release\mtnhax_bo2.lastbuildstate".
+     1>Done Building Project "C:\Users\Bill\Desktop\xbox 360 RGH\own Offhost\mtnhax_bo2\mtnhax_mw3\mtnhax_mw3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

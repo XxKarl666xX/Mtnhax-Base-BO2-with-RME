@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RME">
+      <UniqueIdentifier>{6bdb1fe6-2145-49d8-bcd6-5196eb76aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RME\Header Files">
+      <UniqueIdentifier>{b973d66a-f374-41b1-b850-b0615c071d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RME\Source Files">
+      <UniqueIdentifier>{710047f1-1642-45f2-b8b1-7cd2d0eb1d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{d8f95f40-5ffc-4e8c-beaa-80819640225a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Logic">
+      <UniqueIdentifier>{83f7d06c-3b9b-4130-a4fb-995321e7e7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Logic\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main Logic\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{7a83cf15-32b7-481a-9902-3b884c7201f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mtnhax_bo2.xml">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toolbox.h">
+      <Filter>Main Logic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RME.h">
+      <Filter>RME\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RME_Options.h">
+      <Filter>RME\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="mtnhax_bo2.h">
+      <Filter>Main Logic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="toolbox.cpp">
+      <Filter>Main Logic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RME.cpp">
+      <Filter>RME\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RME_Options.cpp">
+      <Filter>RME\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="mtnhax_bo2.cpp">
+      <Filter>Main Logic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
